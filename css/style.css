@@ -1,4 +1,65 @@
+.orbit-container {
+    margin: 1rem 3rem -1rem;
+}
 
+.orbit-previous {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.orbit-next {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.center-children {
+text-align: center;
+}
+
+.slide {
+flex: 0 0 100%;
+/* display: inline-block; */
+/* display:block;
+vertical-align: top; */
+}
+
+#blog {
+    display: inline-block;
+}
+
+#about {
+    display: inline-block;
+}
+
+.slides {
+    display: flex;
+}
+.mobile-app-filter-menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    margin: 0;
+    height: 2.8125rem;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+  }
+  
+  .mobile-app-filter-menu li a {
+    color: #cacaca;
+  }
+  
+  .mobile-app-filter-menu li.is-active a {
+    color: #8a8a8a;
+  }
+  
+  
 .social-footer {
     padding: 1rem;
     background: #8a8a8a;
@@ -26,49 +87,3 @@
     color: #4a4a4a;
     transition: color 0.8s ease-in;
   }
-  
-  .orbit-container {
-      margin: 3rem ;
-  }
-  
-  .orbit-previous {
-    color: black;
-    font-size: 1.5rem;
-  }
-
-  .orbit-next {
-    color: black;
-    font-size: 1.5rem;
-  }
-
-  .center-children {
-    text-align: center;
-  }
-
-
-.mobile-app-filter-menu {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    list-style-type: none;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    margin: 0;
-    height: 2.8125rem;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-top: 1px solid #cacaca;
-    border-bottom: 1px solid #cacaca;
-  }
-  
-  .mobile-app-filter-menu li a {
-    color: #cacaca;
-  }
-  
-  .mobile-app-filter-menu li.is-active a {
-    color: #8a8a8a;
-  }
-  
-  
